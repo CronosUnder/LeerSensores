@@ -3,16 +3,10 @@
  */
 package com.cmiranda;
 
-import static com.cmiranda.UtilDispositivos.serialPorts;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-import jssc.SerialPortEvent;
-import jssc.SerialPortEventListener;
 import jssc.SerialPortException;
 
 public class Main extends javax.swing.JFrame{
